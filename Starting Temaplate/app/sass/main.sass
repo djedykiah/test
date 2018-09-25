@@ -1,0 +1,65 @@
+@import mixins
+@import media
+@import sprites
+@import normalize
+@import vars
+
+
+
+
+
+body 	
+	color: $color
+	// font: $font-weight $font-size/$line-height $font-family, Arial, sans-serif
+
+/* MAIN STYLES
+/* ================================================ */
+
+.main-wrapper
+	padding: 0
+	min-width: 320px
+	position: relative 
+	overflow: hidden
+	opacity: 1
+	min-height: 100% 
+
+.wrapper 
+	max-width: $wrapper
+	margin: 0 auto
+	position: relative
+
+
+img
+	display: block
+	max-width: 100%
+
+span 
+	display: inline-block
+
+/* text position */
+
+.text-left
+	text-align: left !important
+
+.text-center
+	text-align: center !important
+
+.text-right
+	text-align: right !important
+
+
+/* Icons
+     ====================== */
+.ic 
+	position: relative
+	display: inline-block
+	vertical-align: middle
+	// background: $icons no-repeat
+
+// @each $i in next, prev
+// 	.ic--#{$i}
+// 		+s(ic--#{$i})
+
+
+
+/*====================header==================================*/
